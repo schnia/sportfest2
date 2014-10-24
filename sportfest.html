@@ -1,24 +1,24 @@
 <html>
  <head> <title> Sportfest</title>
  <link rel="stylesheet" type="text/css" href="index.css">
- <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
  </head>
 
 <body id="content">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 
+</script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"> 
 
 $('.carousel').carousel()
 
 $('.karussell').carousel({
-	interval: 20000
-	pause: "hover"
+  interval: 2000
+  pause: "hover"
 })
 
 </script>
-
 
 <div class="header">
 <a href=""> <img src="img/htl_logo.png" alt="logo" width="320" height="120"> </a>
@@ -70,10 +70,29 @@ $('.karussell').carousel({
   </a>
 </div>
 
-<div class="menue">
-    
+<div class="row menue menue_unten">
+  <div class="col-md-6 link volleyball">
+     <h2> Volleyball </h2>
+  </div>
 
+
+  <div class="col-md-6 link basketball">
+      <h2> Basketball </h2>
+  </div>
 </div>
+
+<div class="row menue menue_oben">
+  <div class="col-md-8 link fussball">
+      <h2> Fu&szligball </h2>
+  </div>
+
+
+  <div class="col-md-4 link sonstiges">
+      <h2> Sonstiges </h2>
+  </div>
+</div>
+
+
 
 </div>
 

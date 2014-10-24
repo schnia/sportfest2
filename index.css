@@ -17,6 +17,56 @@ padding-bottom: 33px;
 border-bottom: 1px solid black;
 }
 
+.menue {
+padding-right: 15px;
+padding-left: 15px;
+padding-top: 15px;
+}
 
+.menue .link {
+border: 1px solid black;
+padding-top: 90px;
+padding-bottom: 90px;
+border-radius: 5px;
+text-align: right;
+}
 
+.menue .link h2 {
+border:1px solid black;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.3);
+position: absolute;
+padding-bottom: 36px;
+}
 
+.menue .link h2:hover {
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5);
+color: #FFFFFF;
+}
+
+.menue .fussball{
+background-image: url('img/fballp.jpg');
+background-repeat: no-repeat;
+background-position: 50px 10px; 
+}
+
+.menue .fussball 
+
+.menue .basketball{
+background-image: url('img/bballp.jpg');
+background-repeat: no-repeat;
+background-position: 30px 2px; 
+background-size: 120px 240px;
+}
+
+.menue .volleyball{
+background-image: url('img/vballp.jpg');
+background-repeat: no-repeat;
+background-position: 30px -15px; 
+
+}
+
+.menue .sonstiges{
+
+}

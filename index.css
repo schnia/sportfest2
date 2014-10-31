@@ -1,7 +1,8 @@
 #content{
-width: 712px;
+width: 800px;
 margin-left: 20%;
 }
+
 
 .header img {
 float: left;
@@ -12,7 +13,7 @@ border-bottom: 1px solid black;
 position: relative;
 float: left;
 font-size: 60px;
-padding-left: 150px;
+padding-left: 238px;
 padding-bottom: 33px;
 border-bottom: 1px solid black;
 }
@@ -32,11 +33,11 @@ text-align: right;
 }
 
 .menue .link h2 {
-border:1px solid black;
 background: rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0.3);
 position: absolute;
-padding-bottom: 36px;
+padding-bottom: 37px;
+color: grey;
 }
 
 .menue .link h2:hover {
@@ -46,27 +47,62 @@ color: #FFFFFF;
 }
 
 .menue .fussball{
-background-image: url('img/fballp.jpg');
+background-image: url('img/mfball.jpg');
 background-repeat: no-repeat;
-background-position: 50px 10px; 
+width: 507px;
 }
 
-.menue .fussball 
+.menue .fussball h2{
+margin-left: -16px;
+padding-right: 407px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
 
 .menue .basketball{
-background-image: url('img/bballp.jpg');
+background-image: url('img/mbball.jpg');
 background-repeat: no-repeat;
-background-position: 30px 2px; 
-background-size: 120px 240px;
+background-position: -10px -20px;
+background-size: 403px 300px;
+width: 393px;
+margin-left: 12px;
 }
+
+.menue .basketball h2 {
+margin-left: -16px;
+padding-right: 254px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
 
 .menue .volleyball{
-background-image: url('img/vballp.jpg');
+background-image: url('img/mvball.jpg');
 background-repeat: no-repeat;
-background-position: 30px -15px; 
+background-position: -40px -50px;
+width: 393px;
+}
+
+.menue .volleyball h2 {
+margin-left: -16px;
+padding-right: 265px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
 
 }
 
-.menue .sonstiges{
 
+.menue .sonstiges{
+background-image: url('img/sball.jpg');
+background-repeat: no-repeat;
+background-size: 350px 300px;
+width: 280px;
+margin-left: 12px;
+}
+
+.menue .sonstiges h2 {
+margin-left: -16px;
+padding-right: 147px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
 }

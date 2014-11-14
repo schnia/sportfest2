@@ -1,30 +1,21 @@
 #content{
 width: 800px;
-margin-left: 20%;
+margin-left: 20px;
 }
 
-
-.header img {
-float: left;
-border-bottom: 1px solid black;
-}
-
-.header h1 {
-position: relative;
-float: left;
+.header h1{
 font-size: 60px;
-padding-left: 238px;
-padding-bottom: 33px;
-border-bottom: 1px solid black;
+padding-left: 400px;
+margin-top: -90px;
 }
 
-.menue {
+.menue{
 padding-right: 15px;
 padding-left: 15px;
-padding-top: 15px;
+padding-top: 20px;
 }
 
-.menue .link {
+.menue .link{
 border: 1px solid black;
 padding-top: 90px;
 padding-bottom: 90px;
@@ -49,60 +40,72 @@ color: #FFFFFF;
 .menue .fussball{
 background-image: url('img/mfball.jpg');
 background-repeat: no-repeat;
-width: 507px;
+width: 490px;
 }
 
 .menue .fussball h2{
 margin-left: -16px;
-padding-right: 407px;
+padding-right: 375px;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
+padding-left: 15px;
 }
 
 .menue .basketball{
 background-image: url('img/mbball.jpg');
 background-repeat: no-repeat;
-background-position: -10px -20px;
-background-size: 403px 300px;
-width: 393px;
-margin-left: 12px;
+background-position: 0px -80px;
+background-size: 413px 300px;
+width: 390px;
+margin-left: 20px;
 }
 
 .menue .basketball h2 {
 margin-left: -16px;
-padding-right: 254px;
+padding-right: 237px;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
+padding-left: 15px;
 }
-
 
 .menue .volleyball{
 background-image: url('img/mvball.jpg');
 background-repeat: no-repeat;
 background-position: -40px -50px;
-width: 393px;
+width: 390px;
 }
 
 .menue .volleyball h2 {
 margin-left: -16px;
-padding-right: 265px;
+padding-right: 247px;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
-
+padding-left: 15px;
 }
-
 
 .menue .sonstiges{
 background-image: url('img/sball.jpg');
 background-repeat: no-repeat;
 background-size: 350px 300px;
-width: 280px;
-margin-left: 12px;
+width: 290px;
+margin-left: 20px;
 }
 
 .menue .sonstiges h2 {
 margin-left: -16px;
-padding-right: 147px;
+padding-right: 143px;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
+padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+    padding-left: 0px;
+	margin-top: 0px;
+    }
+    #carousel-example-generic{
+    width: 600px;
+    height: 600px;
+    }
 }

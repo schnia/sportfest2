@@ -1,5 +1,5 @@
 #content{
-width: 800px;
+width: 60%;
 margin-left: 20px;
 }
 
@@ -40,12 +40,11 @@ color: #FFFFFF;
 .menue .fussball{
 background-image: url('img/mfball.jpg');
 background-repeat: no-repeat;
-width: 490px;
 }
 
 .menue .fussball h2{
 margin-left: -16px;
-padding-right: 375px;
+padding-right: 84%;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
 padding-left: 15px;
@@ -56,13 +55,11 @@ background-image: url('img/mbball.jpg');
 background-repeat: no-repeat;
 background-position: 0px -80px;
 background-size: 413px 300px;
-width: 390px;
-margin-left: 20px;
 }
 
 .menue .basketball h2 {
 margin-left: -16px;
-padding-right: 237px;
+padding-right: 67%;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
 padding-left: 15px;
@@ -72,12 +69,11 @@ padding-left: 15px;
 background-image: url('img/mvball.jpg');
 background-repeat: no-repeat;
 background-position: -40px -50px;
-width: 390px;
 }
 
 .menue .volleyball h2 {
 margin-left: -16px;
-padding-right: 247px;
+padding-right: 70%;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
 padding-left: 15px;
@@ -87,25 +83,23 @@ padding-left: 15px;
 background-image: url('img/sball.jpg');
 background-repeat: no-repeat;
 background-size: 350px 300px;
-width: 290px;
-margin-left: 20px;
 }
 
 .menue .sonstiges h2 {
 margin-left: -16px;
-padding-right: 143px;
+padding-right: 51%;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
 padding-left: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .header h1 {
     padding-left: 0px;
 	margin-top: 0px;
     }
-    #carousel-example-generic{
-    width: 600px;
-    height: 600px;
-    }
+   
+   
+
+
 }

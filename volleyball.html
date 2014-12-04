@@ -18,6 +18,13 @@ $('.karussell').carousel({
   pause: "hover"
 })
 
+function printImage(img)
+{
+imagetoprint=window.open('','newwin');
+imagetoprint.document.write('<body onload="window.print()" >'+
+'<img src="'+img+'"></body>');
+imagetoprint.document.close()
+
 </script>
 <div class="row">
 <div class=" col-md-6 header">
@@ -43,21 +50,42 @@ $('.karussell').carousel({
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="img/sf1.jpg" alt="...">
+      <img src="img/sportfest/vball.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
     <div class="item">
-      <img src="img/sf2.jpg" alt="...">
+      <img src="img/sportfest/vball1.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
     <div class="item">
-      <img src="img/sf3.jpg" alt="...">
+      <img src="img/sportfest/vball2.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+     <div class="item">
+      <img src="img/sportfest/vball3.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+     <div class="item">
+      <img src="img/sportfest/vball4.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+     <div class="item">
+      <img src="img/sportfest/vball5.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
@@ -75,8 +103,48 @@ $('.karussell').carousel({
 </div>
 </div>
 
-</div class="row">
-<a href="gross_bild.jpg" rel="lightbox"><img src="klein_bild.jpg" alt="Kleines Bild"/></a>
+<div class="row img">
+
+  <div class="col-md-4">
+  <a href='img/sportfest/vball.jpg' target='_blank;' onclick='location.print();  return false;' onload='window.print()'> <img src="img/sportfest/vball.jpg"></a>
+  </div>
+
+  <div class="col-md-4">
+  <a href='img/sportfest/vball1.jpg' target='_blank;' onclick='location.print();  return false;' onload='window.print()'> <img src="img/sportfest/vball1.jpg"></a>
+  </div>
+
+  <div class="col-md-4">
+  <a href='img/sportfest/vball2.jpg' target='_blank;' onclick='location.print();  return false;' onload='window.print()'> <img src="img/sportfest/vball2.jpg"></a>
+  </div>
 </div>
+
+<div class="row img">
+
+  <div class="col-md-4">
+  <a href='img/sportfest/vball3.jpg' target='_blank;' onclick='location.print();  return false;' onload='window.print()'> <img src="img/sportfest/vball3.jpg"></a>
+  </div>
+
+  <div class="col-md-4">
+  <a href='img/sportfest/vball4.jpg' target='_blank;' onclick='location.print();  return false;' onload='window.print()'> <img src="img/sportfest/vball4.jpg"></a>
+  </div>
+
+  <div class="col-md-4">
+  <a href='img/sportfest/vball5.jpg' target='_blank;' onclick='location.print();  return false;' onload='window.print()'> <img src="img/sportfest/vball5.jpg"></a>
+  </div>
+
+</div>
+
+</div>
+<div class="row header">
+  <ul class="navigation">
+    <a href="sportfest.html"><li>Startseite</li></a>
+    <a href="basketball.html"><li>Basketball</li></a>
+    <a href="fussball.html"><li>Fu&szlig;ball</li></a>
+    <a href="volleyball.html"><li>Volleyball</li></a>
+    <a href="sonstiges.html"><li>Sonstiges</li></a>
+  </ul>
+
+  </div>
+
 </body>
 </html>

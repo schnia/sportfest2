@@ -13,6 +13,7 @@ margin-top: -90px;
 padding-right: 15px;
 padding-left: 15px;
 padding-top: 20px;
+
 }
 
 .menue .link{
@@ -21,6 +22,7 @@ padding-top: 90px;
 padding-bottom: 90px;
 border-radius: 5px;
 text-align: right;
+
 }
 
 .menue .link h2 {
@@ -40,11 +42,12 @@ color: #FFFFFF;
 .menue .fussball{
 background-image: url('img/mfball.jpg');
 background-repeat: no-repeat;
+width: 65%;
 }
 
 .menue .fussball h2{
 margin-left: -16px;
-padding-right: 84%;
+padding-right: 83%;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
 padding-left: 15px;
@@ -54,12 +57,14 @@ padding-left: 15px;
 background-image: url('img/mbball.jpg');
 background-repeat: no-repeat;
 background-position: 0px -80px;
-background-size: 413px 300px;
+background-size: 100% 200%;
+width: 49%;
+margin-left: 10px;
 }
 
 .menue .basketball h2 {
 margin-left: -16px;
-padding-right: 67%;
+padding-right: 66.5%;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
 padding-left: 15px;
@@ -69,11 +74,12 @@ padding-left: 15px;
 background-image: url('img/mvball.jpg');
 background-repeat: no-repeat;
 background-position: -40px -50px;
+width: 49%;
 }
 
 .menue .volleyball h2 {
 margin-left: -16px;
-padding-right: 70%;
+padding-right: 69.5%;
 border-bottom-right-radius: 5px;
 border-bottom-left-radius: 5px;
 padding-left: 15px;
@@ -82,7 +88,9 @@ padding-left: 15px;
 .menue .sonstiges{
 background-image: url('img/sball.jpg');
 background-repeat: no-repeat;
-background-size: 350px 300px;
+background-size: 100% 120%;
+width: 33%;
+margin-left: 10px;
 }
 
 .menue .sonstiges h2 {
@@ -172,9 +180,28 @@ color: black;
     .header h1 {
     padding-left: 0px;
 	margin-top: 0px;
-    }
-   
-   
-
-
+	}
 }
+
+
+@media (max-width: 1000px) {
+    .menue .link {
+    width: 100%;
+    }
+
+    .menue .basketball {
+    margin-left: 0px;
+    margin-top: 15px;
+    }
+
+    .menue .sonstiges {
+    margin-left: 0px;
+    margin-top: 15px;
+    }
+
+    .header img {
+    	padding-bottom: 10px;
+
+    }
+}
+

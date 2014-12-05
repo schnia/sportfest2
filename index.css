@@ -13,7 +13,6 @@ margin-top: -90px;
 padding-right: 15px;
 padding-left: 15px;
 padding-top: 20px;
-
 }
 
 .menue .link{
@@ -22,7 +21,6 @@ padding-top: 90px;
 padding-bottom: 90px;
 border-radius: 5px;
 text-align: right;
-
 }
 
 .menue .link h2 {
@@ -160,7 +158,6 @@ text-decoration: none;
 font-size: 20px;
 color: #FFFFFF;
 }
-
 
 .header .navigation li:hover {
 background-color: #FFFFFF;
